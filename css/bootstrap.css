@@ -1219,7 +1219,10 @@ h6 .small,
 h1,
 .h1,
 h2,
-.h2,
+/* Meine Anpassung */
+.h2 {
+    text-align: center;
+}
 h3,
 .h3 {
   margin-top: 20px;
@@ -3002,6 +3005,8 @@ select[multiple].input-lg {
 }
 
 /* Anpassungen von mir */
+
+
 .btn {
   padding: 6px 12px;
   margin-bottom: 0;
@@ -3115,11 +3120,25 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 
-/* Anpassungen von mir */
+/* Mein Button-Style */
+.btn-primary-jd {
+    color: #fff;
+    background-color: #2e89a4;
+    border-color: #2e89a4;
+    float: right;
+    margin-top: -10%;
+    margin-bottom: 2%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    text-align: center;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #2e89a4;
   border-color: #2e89a4;
+}
   float: right;
   margin-top: -50px;
   margin-bottom: 10px;
