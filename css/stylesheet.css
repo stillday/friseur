@@ -77,12 +77,16 @@ tr {
     display: inline-block;
     margin-right: 20%;
     margin-left: auto;
+    margin-top: ;
     width: 200px;
+    height: 200px;
+    
 }
 
 .about-mid {
-    display: inline-block;
-    margin: auto;
+    display: inline;
+    width: 100px;
+    height: 100px;
     margin-left: 15%;
     margin-right: auto;
     }
