@@ -16,6 +16,9 @@
     margin-left: 40%;
 }
 
+.termin {
+    margin-bottom: 21%;
+}
 .input-jd {
     width: 300px;
     font-family: sans-serif
@@ -26,18 +29,36 @@
     height: 100px;
 }
 
+table {
+    border-collapse: collapse;
+    }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    width: 160px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+tr {
+    font-size: 18px;
+}
+
 .terminleft {
-    float:inherit;
-    margin-left: 2%;
-  
-    
-   
-        
+    float:left;
+    display: inline-block;
+    margin-left: 23%;
+    margin-top: -19%;
+    bottom: auto;
+
 }
 
 .terminright {
-    float: inherit;
-    margin-left: 80%;
-    margin-top: -15%;
-    margin-bottom: 5%;
+    float: right;
+    margin-right: 30%;
+    margin-top: -19%;
+    bottom: auto;
 }
