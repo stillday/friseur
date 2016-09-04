@@ -63,6 +63,32 @@ tr {
     bottom: auto;
 }
 
+.about-left {
+    float: left;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 200px;
+        
+}
+
+.about-right {
+    float: right;
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: auto;
+    width: 200px;
+}
+
+.about-mid {
+    display: inline-block;
+    margin: auto;
+    margin-left: 15%;
+    margin-right: auto;
+    }
+
+
+
 
 .round-button {
 	width:50%;
