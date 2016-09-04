@@ -115,6 +115,7 @@
         <div class="thumbnail">
                 <div class="caption">
                     <h3>Haare Färben</h3>
+                    <div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">Button</a></div></div>
                     <a href="#" class="btn btn-primary-jd" role="button">Button</a> 
                 </div>
             <img src="http://www.ruhrnachrichten.de/storage/pic/mdhl/artikelbilder/lokales/rn/dolo/do-lokal/2861914_1_zzdo-Haare_faerben_Friseur_2640.jpg?version=1386819933" alt="1024x683">
@@ -189,25 +190,54 @@
         <hr>
         <div>
         <h2>FAQ (Sie haben Fragen? Wir haben die Antworten)</h2>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-            </div>    
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-            </div>    
-        </div>
-        </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Bieten Sie Gutscheine an?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <p>Einen neuen Haarschnitt verschenken? Kein Problem mit unserem Friseur Gutschein.</p>
+          <p>Hier haben wir noch ein paar Ideen für deinen Friseur Gutschein:
+Gutschein für einen Haarschnitt, Gutschein für eine neue Haarfarbe, Gutschein für eine Dauerwelle, Gutschein für Föhnen, Gutschein für einen Herrenhaarschnitt oder zum Beispiel einen Gutschein für eine Hochsteckfrisur oder sogar für die Hochzeitsfrisur.</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Darf man Hunde mitbringen?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+          <p>Ja Sie dürfen Ihren Hund mitbringen. Informieren Sie uns bitte vorher drüber.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Besitzen Sie Bio Produkte?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       <p>Wir bieten eine große auswahl an Natur Pflege Produkte. Sprechen Sie uns beim nächsten Besuch einfach drauf an.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        
         <hr>
         <h2>About US</h2>
         <div>
@@ -230,5 +260,6 @@
             <p><a href="">About US</a></p>
         </div>
         </div>
+        
     </body>
 </html>
